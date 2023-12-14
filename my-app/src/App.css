@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.icon{
+  transition: all 0.2s linear;
+}
+.icon:hover{
+  transform: scale(1.4);
+}
+

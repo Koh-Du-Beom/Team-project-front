@@ -1,0 +1,107 @@
+#board-detail-wrapper{
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.001);
+}
+
+.board-detail-container{
+  padding: 100px;
+  width: 996px;
+  min-height: 1000px;
+}
+
+.board-detail-box{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.board-detail-title-box{
+  width: 100%;
+}
+
+.board-detail-title-box, .board-detail-content-box{
+  align-items: flex-start;
+  text-align: left;
+}
+
+.board-detail-title{
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  color: rgba(0, 0, 0, 1);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.divider{
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.board-detail-content-box{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.board-detail-content-textarea{
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  resize: none;
+  overflow-y: auto;
+
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  word-wrap: break-word;
+
+  white-space: normal;
+}
+
+.comment-write-content-box{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.comment-write-content-textarea{
+  flex: 1;
+  border: 1px solid black;
+  outline: none;
+  background: none;
+  resize: none;
+  overflow: hidden;
+
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.youtube-add-button{
+  display: flex;
+  flex-direction: column;
+}
+
+.youtube-add-text{
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+.youtube-add-button-icon{
+  display: flex;
+  height: 240px;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+}
