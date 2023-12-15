@@ -74,7 +74,7 @@ function SideBar() {
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <StyledNavbarBrand
               onClick={() => {
-                window.location.reload(); // 새로고침 버튼을 누른 것 같이 동작
+                navigate('/home');
               }}
             >
               <NavBarIcon
